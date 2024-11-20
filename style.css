@@ -1,0 +1,30 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+header{
+  display: grid;
+  padding: 20px;
+  color: white;
+  grid-template-columns: 200px 200px 200px 200px;
+  background-color: darkgreen;
+}
+div{
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 200px 200px 200px 200px;
+}
+#coDiv{
+  background-color: rgb(219, 236, 251);
+}
+
